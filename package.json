@@ -1,0 +1,22 @@
+
+{
+  "name": "skill-all-in-one-pdf-editor",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^4.10.38",
+    "pdf-lib": "^1.17.1",
+    "mammoth": "^1.9.0",
+    "xlsx": "^0.18.5",
+    "pptxgenjs": "^3.12.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
+  }
+}
